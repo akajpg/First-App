@@ -17,6 +17,12 @@ const ButtonStyles = StyleSheet.create({
 
   buttonTextDark: {
     fontSize: 16,
+    color: 'rgb(40, 40, 40)',
+    fontWeight: '600',
+  },
+
+  buttonTextPrimary: {
+    fontSize: 16,
     color: 'rgba(0, 122, 255, 1)',
     fontWeight: '600',
   },

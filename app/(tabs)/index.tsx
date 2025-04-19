@@ -126,7 +126,14 @@ export default function Index() {
         </Pressable>
 
         {/* Link Navigation */}
-        <Link href="/notifications" style={styles.link}>Go to Notifications</Link>
+        <Link href="/notifications" style={[ButtonStyles.link]}>Go to Notifications</Link>
+        <Text style={typography.body}>React is like LEGO for the web — build powerful UIs by snapping reusable components together. Fast, flexible, and fun.</Text>
+        <Text style={typography.body}>We speak in symbols, loops, and logic — and the universe listens.
+          Every bug is a mystery. <Link href="/notifications" style={[ButtonStyles.link]}>Go to Notifications</Link> Every function is a spell.
+          And every time your code runs? That's power. That's creation. That's you bending reality with your mind.
+        </Text>
+
+        <View style={dividerStyle} />
 
         {/* Buttons */}
         <Text style={typography.h4}>Buttons</Text>
@@ -136,7 +143,7 @@ export default function Index() {
         </TouchableOpacity>
 
         <TouchableOpacity onPress={() => alert("Primary button pressed")} style={[ButtonStyles.button, ButtonStyles.secondary]}activeOpacity={0.7}>
-          <Text style={ButtonStyles.buttonTextDark}>Secondary Button</Text>
+          <Text style={ButtonStyles.buttonTextPrimary}>Secondary Button</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -144,7 +151,7 @@ export default function Index() {
           style={[ButtonStyles.button, ButtonStyles.tertiary]}
           activeOpacity={0.7}
         >
-          <Text style={ButtonStyles.buttonTextDark}>Tertiary Button</Text>
+          <Text style={ButtonStyles.buttonTextPrimary}>Tertiary Button</Text>
         </TouchableOpacity>
       </View>
     </ScrollView>
