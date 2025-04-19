@@ -1,4 +1,4 @@
-# My Expo App
+# My First Expo App
 
 This is a React Native app built with [Expo](https://expo.dev/).
 
@@ -6,6 +6,6 @@ This is a React Native app built with [Expo](https://expo.dev/).
 
 ```bash
 git clone https://github.com/akajpg/First-App.git
-cd your-repo-name
+cd Yeah!
 npm install
 npx expo start
