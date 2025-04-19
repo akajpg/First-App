@@ -9,3 +9,11 @@ git clone https://github.com/akajpg/First-App.git
 cd Yeah!
 npm install
 npx expo start
+
+## 🚀 About me
+
+```bash
+git clone https://github.com/akajpg/First-App.git
+cd Yeah!
+npm install
+npx expo start
