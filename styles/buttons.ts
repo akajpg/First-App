@@ -30,6 +30,13 @@ const ButtonStyles = StyleSheet.create({
     color: 'white',
     backgroundColor: 'rgba(0, 0, 0, 0)',
   },
+  link: {
+    color: 'rgba(0, 122, 255, 1)',
+    fontWeight: "bold",
+    marginTop: 20,
+    marginBottom: 20,
+    backgroundColor: 'transparent',
+  },
 });
 
 export default ButtonStyles;

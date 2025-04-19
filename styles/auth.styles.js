@@ -43,13 +43,14 @@ export const styles = StyleSheet.create({
     // marginTop: 16,
   },
   
-  link: {
-    color: "red",
-    fontWeight: "bold",
-    marginTop: 20,
-    marginBottom: 20,
-    backgroundColor: 'transparent', // Remove any background color
-  },
+  // link: {
+  //   color: 'rgba(0, 122, 255, 1)',
+  //   fontWeight: "bold",
+  //   marginTop: 20,
+  //   marginBottom: 20,
+  //   backgroundColor: 'transparent', // Remove any background color
+  // },
+  
   // ICONS ------------
   iconLarge: {
     width: 48,
